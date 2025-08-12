@@ -1,0 +1,13 @@
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+*.swp
+.env
+.venv
+venv
+.parquet/
+*.parquet
+.DS_Store
+.git
+.gitignore
