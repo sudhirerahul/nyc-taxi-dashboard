@@ -12,7 +12,7 @@ This platform processes **500+ million rows of NYC For-Hire Vehicle (FHV) trip d
 
 ---
 
-## 🎯 Core Business Value
+## Core Business Value
 
 ### The Problem We Solve
 
@@ -23,22 +23,22 @@ Transportation operators face critical questions daily:
 - **Which routes** generate volume vs. profit?
 
 Without this platform, teams rely on:
-- ❌ Lagging weekly/monthly reports
-- ❌ Gut instinct over data
-- ❌ Manual spreadsheet analysis
-- ❌ Missed revenue opportunities
+- Lagging weekly/monthly reports
+- Gut instinct over data
+- Manual spreadsheet analysis
+- Missed revenue opportunities
 
 ### What This Platform Delivers
 
-✅ **Real-time visibility** into demand patterns
-✅ **Pricing intelligence** by time, route, and geography
-✅ **Route profitability** analysis (volume vs. revenue)
-✅ **Operational efficiency** metrics (wait times, duration)
-✅ **Predictive insights** from historical trend analysis
+**Real-time visibility** into demand patterns
+**Pricing intelligence** by time, route, and geography
+**Route profitability** analysis (volume vs. revenue)
+**Operational efficiency** metrics (wait times, duration)
+**Predictive insights** from historical trend analysis
 
 ---
 
-## 📊 Key Performance Indicators (KPIs) Tracked
+## Key Performance Indicators (KPIs) Tracked
 
 ### Demand Metrics
 | KPI | Business Impact |
@@ -74,7 +74,7 @@ Without this platform, teams rely on:
 
 ---
 
-## 💼 Business Questions Answered
+## Business Questions Answered
 
 ### For Operations Managers
 - **"When do I need more drivers on the road?"**
@@ -115,7 +115,7 @@ Without this platform, teams rely on:
 
 ---
 
-## 🖼️ Dashboard Capabilities
+## Dashboard Capabilities
 
 ### 1. Geographic Intelligence & Route Overview
 ![Geographic Overview](demo1.png)
@@ -229,7 +229,7 @@ Without this platform, teams rely on:
 
 ---
 
-## 🚀 Scale & Performance
+## Scale & Performance
 
 ### Data Volume
 - **500+ million rows** of trip data processed
@@ -245,14 +245,14 @@ Without this platform, teams rely on:
 
 ### Why This Matters
 At 500M+ rows, traditional databases and spreadsheets fail. This platform:
-- ✅ Handles growth to 1 billion+ rows
-- ✅ Maintains fast query response times
-- ✅ Scales without infrastructure redesign
-- ✅ Supports real-time decision-making at scale
+- Handles growth to 1 billion+ rows
+- Maintains fast query response times
+- Scales without infrastructure redesign
+- Supports real-time decision-making at scale
 
 ---
 
-## 🛠️ Technical Foundation (For Context)
+## Technical Foundation (For Context)
 
 ### Data Stack
 ```
@@ -271,7 +271,7 @@ Raw Data (Parquet) → SQLite Database → Flask API → Interactive Dashboard
 
 ---
 
-## 📈 Measurable Business Outcomes
+## Measurable Business Outcomes
 
 ### Pre-Platform (Without Analytics)
 - Decision lag time: **5-7 days** (waiting for reports)
@@ -286,14 +286,14 @@ Raw Data (Parquet) → SQLite Database → Flask API → Interactive Dashboard
 - Customer wait times: **Tracked and improving**
 
 ### Expected Impact (First Year)
-- 📊 **10-15% revenue increase** from dynamic pricing
-- 🚗 **15-20% fleet efficiency improvement** from demand prediction
-- ⏱️ **20% reduction in wait times** from zone optimization
-- 💰 **$500K-$1M cost savings** from operational efficiency
+- **10-15% revenue increase** from dynamic pricing
+- **15-20% fleet efficiency improvement** from demand prediction
+- **20% reduction in wait times** from zone optimization
+- **$500K-$1M cost savings** from operational efficiency
 
 ---
 
-## 🎯 Use Cases by Role
+## Use Cases by Role
 
 ### Operations Director
 **Morning Routine:**
@@ -337,7 +337,7 @@ nyc_vs_dashboard/
 
 ---
 
-## 🚦 Getting Started
+## Getting Started
 
 ### For Product Managers (Non-Technical)
 1. **Access the Dashboard:** Navigate to the deployed URL
@@ -383,7 +383,7 @@ Werkzeug==3.0.1        # WSGI utilities
 
 ---
 
-## 📊 API Endpoints (For Technical Teams)
+## API Endpoints (For Technical Teams)
 
 | Endpoint | Purpose | Example Response |
 |----------|---------|------------------|
@@ -395,28 +395,28 @@ Werkzeug==3.0.1        # WSGI utilities
 
 ---
 
-## ⚠️ What Breaks If This Platform Fails
+## What Breaks If This Platform Fails
 
 ### Operational Impact
-- ❌ **No demand visibility** → Poor driver scheduling
-- ❌ **No wait time tracking** → Customer dissatisfaction
-- ❌ **No zone intelligence** → Inefficient vehicle positioning
+- **No demand visibility** → Poor driver scheduling
+- **No wait time tracking** → Customer dissatisfaction
+- **No zone intelligence** → Inefficient vehicle positioning
 
 ### Financial Impact
-- ❌ **No pricing insights** → Revenue leakage
-- ❌ **No route analysis** → Missed high-value opportunities
-- ❌ **No trend forecasting** → Inaccurate budgeting
+- **No pricing insights** → Revenue leakage
+- **No route analysis** → Missed high-value opportunities
+- **No trend forecasting** → Inaccurate budgeting
 
 ### Strategic Impact
-- ❌ **No growth metrics** → Blind expansion decisions
-- ❌ **No competitive intel** → Market share loss
-- ❌ **No data credibility** → Stakeholder distrust
+- **No growth metrics** → Blind expansion decisions
+- **No competitive intel** → Market share loss
+- **No data credibility** → Stakeholder distrust
 
 **This platform is not a report — it is decision infrastructure.**
 
 ---
 
-## 🔍 Data Quality & Trust
+## Data Quality & Trust
 
 ### Data Sources
 - **Authority:** NYC Taxi & Limousine Commission (TLC)
@@ -425,10 +425,10 @@ Werkzeug==3.0.1        # WSGI utilities
 - **Completeness:** 99.5%+ of trips captured
 
 ### Quality Checks
-- ✅ Automated null value detection
-- ✅ Outlier fare validation ($0-$500 range)
-- ✅ Geographic zone matching (265 NYC zones)
-- ✅ Timestamp integrity validation
+- Automated null value detection
+- Outlier fare validation ($0-$500 range)
+- Geographic zone matching (265 NYC zones)
+- Timestamp integrity validation
 
 ### Limitations (Transparent Communication)
 - **Temporal:** Analysis limited to 2024 data (expandable)
@@ -438,7 +438,7 @@ Werkzeug==3.0.1        # WSGI utilities
 
 ---
 
-## 🔄 Continuous Improvement Roadmap
+## Continuous Improvement Roadmap
 
 ### Near-Term (Next 3 Months)
 - [ ] Add 2025 data integration
@@ -460,43 +460,7 @@ Werkzeug==3.0.1        # WSGI utilities
 
 ---
 
-## 🤝 Ownership & Support
 
-### Business Owner
-**Role:** Operations / Analytics Director
-**Responsibilities:**
-- Define success metrics
-- Validate business logic
-- Approve feature priorities
-
-### Technical Owner
-**Role:** Data Engineering Team
-**Responsibilities:**
-- Maintain data pipelines
-- Ensure query performance
-- Scale infrastructure
-
-### Stakeholders
-- Operations teams (daily users)
-- Pricing analysts (weekly users)
-- Executive team (monthly reviews)
-- Product managers (feature planning)
-
----
-
-## 📞 Getting Help
-
-### For Business Questions
-- "How do I interpret this metric?" → Contact Analytics Team
-- "Can we add a new KPI?" → Submit feature request
-- "Why did revenue drop last week?" → Review dashboard + escalate
-
-### For Technical Issues
-- Dashboard not loading → Check system status
-- Slow query performance → Report to engineering
-- Data looks incorrect → File data quality ticket
-
----
 
 ## ✅ Production Readiness Checklist
 
@@ -541,7 +505,6 @@ Werkzeug==3.0.1        # WSGI utilities
 
 ---
 
-**Last Updated:** February 2026
 **Platform Version:** 1.0
 **Data Coverage:** 2024 (500M+ trips)
 
